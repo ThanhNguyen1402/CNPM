@@ -1,0 +1,60 @@
+.hover {
+      min-height: 60px;
+      border-radius: 5px;
+      width: 100%;
+}
+
+.hover:hover {
+      background-color: #c8c8c8;
+      cursor: pointer;
+}
+
+.hover:active {
+      background-color: rgb(150, 150, 150);
+}
+
+.hover2 {
+      min-height: 60px;
+      border-radius: 5px;
+}
+
+.hover2>* {
+      color: red;
+}
+
+.hover2:hover {
+      cursor: pointer;
+}
+
+.hover2:active>* {
+      color: rgb(255, 154, 154);
+}
+
+.activeTab {
+      min-height: 60px;
+      border-radius: 5px;
+      width: 100%;
+      background-color: #0083FD;
+}
+
+.activeTab:hover {
+      cursor: pointer;
+}
+
+.activeTab>* {
+      color: white !important;
+}
+
+.navbar {
+      background-color: white;
+      width: 300px;
+}
+
+.tabs {
+      opacity: 1;
+}
+
+.logo {
+      width: 60px;
+      height: 60px;
+}

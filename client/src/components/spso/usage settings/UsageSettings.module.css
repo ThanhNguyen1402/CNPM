@@ -1,0 +1,9 @@
+.switch {
+  width: 70px !important;
+  height: 30px !important;
+}
+
+.input-field {
+  border-radius: 10px;
+  width: 200px;
+}
